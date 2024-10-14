@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BF51437D2CBCD5F4008ACCBC /* Exceptions for "github" folder in "GithubFollowers" target */ = {
+		BF51437D2CBCD5F4008ACCBC /* Exceptions for "GithubFollowers" folder in "GithubFollowers" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,22 +40,22 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BF5143572CBCD5F1008ACCBC /* github */ = {
+		BF5143572CBCD5F1008ACCBC /* GithubFollowers */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				BF51437D2CBCD5F4008ACCBC /* Exceptions for "github" folder in "GithubFollowers" target */,
+				BF51437D2CBCD5F4008ACCBC /* Exceptions for "GithubFollowers" folder in "GithubFollowers" target */,
 			);
-			path = github;
+			path = GithubFollowers;
 			sourceTree = "<group>";
 		};
-		BF51436E2CBCD5F4008ACCBC /* githubTests */ = {
+		BF51436E2CBCD5F4008ACCBC /* GithubFollowersTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = githubTests;
+			path = GithubFollowersTests;
 			sourceTree = "<group>";
 		};
-		BF5143782CBCD5F4008ACCBC /* githubUITests */ = {
+		BF5143782CBCD5F4008ACCBC /* GithubFollowersUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = githubUITests;
+			path = GithubFollowersUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,9 +88,9 @@
 		BF51434C2CBCD5F1008ACCBC = {
 			isa = PBXGroup;
 			children = (
-				BF5143572CBCD5F1008ACCBC /* github */,
-				BF51436E2CBCD5F4008ACCBC /* githubTests */,
-				BF5143782CBCD5F4008ACCBC /* githubUITests */,
+				BF5143572CBCD5F1008ACCBC /* GithubFollowers */,
+				BF51436E2CBCD5F4008ACCBC /* GithubFollowersTests */,
+				BF5143782CBCD5F4008ACCBC /* GithubFollowersUITests */,
 				BF5143562CBCD5F1008ACCBC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BF5143572CBCD5F1008ACCBC /* github */,
+				BF5143572CBCD5F1008ACCBC /* GithubFollowers */,
 			);
 			name = GithubFollowers;
 			packageProductDependencies = (
@@ -144,7 +144,7 @@
 				BF51436D2CBCD5F4008ACCBC /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				BF51436E2CBCD5F4008ACCBC /* githubTests */,
+				BF51436E2CBCD5F4008ACCBC /* GithubFollowersTests */,
 			);
 			name = GithubFollowersTests;
 			packageProductDependencies = (
@@ -167,7 +167,7 @@
 				BF5143772CBCD5F4008ACCBC /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				BF5143782CBCD5F4008ACCBC /* githubUITests */,
+				BF5143782CBCD5F4008ACCBC /* GithubFollowersUITests */,
 			);
 			name = GithubFollowersUITests;
 			packageProductDependencies = (
@@ -290,7 +290,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = github/Info.plist;
+				INFOPLIST_FILE = GithubFollowers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
@@ -317,7 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = github/Info.plist;
+				INFOPLIST_FILE = GithubFollowers/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = "";
