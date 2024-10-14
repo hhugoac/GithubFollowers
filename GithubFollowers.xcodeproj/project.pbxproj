@@ -24,18 +24,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BF5143552CBCD5F1008ACCBC /* github.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = github.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF51436B2CBCD5F4008ACCBC /* githubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF5143752CBCD5F4008ACCBC /* githubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = githubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5143552CBCD5F1008ACCBC /* GithubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF51436B2CBCD5F4008ACCBC /* GithubFollowersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubFollowersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5143752CBCD5F4008ACCBC /* GithubFollowersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GithubFollowersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BF51437D2CBCD5F4008ACCBC /* Exceptions for "github" folder in "github" target */ = {
+		BF51437D2CBCD5F4008ACCBC /* Exceptions for "github" folder in "GithubFollowers" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = BF5143542CBCD5F1008ACCBC /* github */;
+			target = BF5143542CBCD5F1008ACCBC /* GithubFollowers */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -43,7 +43,7 @@
 		BF5143572CBCD5F1008ACCBC /* github */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				BF51437D2CBCD5F4008ACCBC /* Exceptions for "github" folder in "github" target */,
+				BF51437D2CBCD5F4008ACCBC /* Exceptions for "github" folder in "GithubFollowers" target */,
 			);
 			path = github;
 			sourceTree = "<group>";
@@ -98,9 +98,9 @@
 		BF5143562CBCD5F1008ACCBC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF5143552CBCD5F1008ACCBC /* github.app */,
-				BF51436B2CBCD5F4008ACCBC /* githubTests.xctest */,
-				BF5143752CBCD5F4008ACCBC /* githubUITests.xctest */,
+				BF5143552CBCD5F1008ACCBC /* GithubFollowers.app */,
+				BF51436B2CBCD5F4008ACCBC /* GithubFollowersTests.xctest */,
+				BF5143752CBCD5F4008ACCBC /* GithubFollowersUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,9 +108,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF5143542CBCD5F1008ACCBC /* github */ = {
+		BF5143542CBCD5F1008ACCBC /* GithubFollowers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF51437E2CBCD5F4008ACCBC /* Build configuration list for PBXNativeTarget "github" */;
+			buildConfigurationList = BF51437E2CBCD5F4008ACCBC /* Build configuration list for PBXNativeTarget "GithubFollowers" */;
 			buildPhases = (
 				BF5143512CBCD5F1008ACCBC /* Sources */,
 				BF5143522CBCD5F1008ACCBC /* Frameworks */,
@@ -123,16 +123,16 @@
 			fileSystemSynchronizedGroups = (
 				BF5143572CBCD5F1008ACCBC /* github */,
 			);
-			name = github;
+			name = GithubFollowers;
 			packageProductDependencies = (
 			);
 			productName = github;
-			productReference = BF5143552CBCD5F1008ACCBC /* github.app */;
+			productReference = BF5143552CBCD5F1008ACCBC /* GithubFollowers.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BF51436A2CBCD5F4008ACCBC /* githubTests */ = {
+		BF51436A2CBCD5F4008ACCBC /* GithubFollowersTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF5143832CBCD5F4008ACCBC /* Build configuration list for PBXNativeTarget "githubTests" */;
+			buildConfigurationList = BF5143832CBCD5F4008ACCBC /* Build configuration list for PBXNativeTarget "GithubFollowersTests" */;
 			buildPhases = (
 				BF5143672CBCD5F4008ACCBC /* Sources */,
 				BF5143682CBCD5F4008ACCBC /* Frameworks */,
@@ -146,16 +146,16 @@
 			fileSystemSynchronizedGroups = (
 				BF51436E2CBCD5F4008ACCBC /* githubTests */,
 			);
-			name = githubTests;
+			name = GithubFollowersTests;
 			packageProductDependencies = (
 			);
 			productName = githubTests;
-			productReference = BF51436B2CBCD5F4008ACCBC /* githubTests.xctest */;
+			productReference = BF51436B2CBCD5F4008ACCBC /* GithubFollowersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		BF5143742CBCD5F4008ACCBC /* githubUITests */ = {
+		BF5143742CBCD5F4008ACCBC /* GithubFollowersUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF5143862CBCD5F4008ACCBC /* Build configuration list for PBXNativeTarget "githubUITests" */;
+			buildConfigurationList = BF5143862CBCD5F4008ACCBC /* Build configuration list for PBXNativeTarget "GithubFollowersUITests" */;
 			buildPhases = (
 				BF5143712CBCD5F4008ACCBC /* Sources */,
 				BF5143722CBCD5F4008ACCBC /* Frameworks */,
@@ -169,11 +169,11 @@
 			fileSystemSynchronizedGroups = (
 				BF5143782CBCD5F4008ACCBC /* githubUITests */,
 			);
-			name = githubUITests;
+			name = GithubFollowersUITests;
 			packageProductDependencies = (
 			);
 			productName = githubUITests;
-			productReference = BF5143752CBCD5F4008ACCBC /* githubUITests.xctest */;
+			productReference = BF5143752CBCD5F4008ACCBC /* GithubFollowersUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -199,7 +199,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BF5143502CBCD5F1008ACCBC /* Build configuration list for PBXProject "github" */;
+			buildConfigurationList = BF5143502CBCD5F1008ACCBC /* Build configuration list for PBXProject "GithubFollowers" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -213,9 +213,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF5143542CBCD5F1008ACCBC /* github */,
-				BF51436A2CBCD5F4008ACCBC /* githubTests */,
-				BF5143742CBCD5F4008ACCBC /* githubUITests */,
+				BF5143542CBCD5F1008ACCBC /* GithubFollowers */,
+				BF51436A2CBCD5F4008ACCBC /* GithubFollowersTests */,
+				BF5143742CBCD5F4008ACCBC /* GithubFollowersUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -271,12 +271,12 @@
 /* Begin PBXTargetDependency section */
 		BF51436D2CBCD5F4008ACCBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF5143542CBCD5F1008ACCBC /* github */;
+			target = BF5143542CBCD5F1008ACCBC /* GithubFollowers */;
 			targetProxy = BF51436C2CBCD5F4008ACCBC /* PBXContainerItemProxy */;
 		};
 		BF5143772CBCD5F4008ACCBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BF5143542CBCD5F1008ACCBC /* github */;
+			target = BF5143542CBCD5F1008ACCBC /* GithubFollowers */;
 			targetProxy = BF5143762CBCD5F4008ACCBC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -293,7 +293,7 @@
 				INFOPLIST_FILE = github/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hhugo.github;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhugo.Github;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +320,7 @@
 				INFOPLIST_FILE = github/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -328,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hhugo.github;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhugo.Github;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -469,7 +469,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/github.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/github";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubFollowers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GithubFollowers";
 			};
 			name = Debug;
 		};
@@ -487,7 +487,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/github.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/github";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GithubFollowers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GithubFollowers";
 			};
 			name = Release;
 		};
@@ -526,7 +526,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BF5143502CBCD5F1008ACCBC /* Build configuration list for PBXProject "github" */ = {
+		BF5143502CBCD5F1008ACCBC /* Build configuration list for PBXProject "GithubFollowers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF5143812CBCD5F4008ACCBC /* Debug */,
@@ -535,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF51437E2CBCD5F4008ACCBC /* Build configuration list for PBXNativeTarget "github" */ = {
+		BF51437E2CBCD5F4008ACCBC /* Build configuration list for PBXNativeTarget "GithubFollowers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF51437F2CBCD5F4008ACCBC /* Debug */,
@@ -544,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF5143832CBCD5F4008ACCBC /* Build configuration list for PBXNativeTarget "githubTests" */ = {
+		BF5143832CBCD5F4008ACCBC /* Build configuration list for PBXNativeTarget "GithubFollowersTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF5143842CBCD5F4008ACCBC /* Debug */,
@@ -553,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF5143862CBCD5F4008ACCBC /* Build configuration list for PBXNativeTarget "githubUITests" */ = {
+		BF5143862CBCD5F4008ACCBC /* Build configuration list for PBXNativeTarget "GithubFollowersUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BF5143872CBCD5F4008ACCBC /* Debug */,
