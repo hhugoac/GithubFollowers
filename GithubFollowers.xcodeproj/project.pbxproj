@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C99B4082CC16F9600EF8DDB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99B4072CC16F9600EF8DDB /* NetworkManager.swift */; };
+		4C99B40B2CC17C0B00EF8DDB /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99B40A2CC17C0100EF8DDB /* ErrorMessage.swift */; };
 		4CD24EAD2CC0868F0057F200 /* Follower.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD24EAC2CC0868F0057F200 /* Follower.swift */; };
 		4CD24EAF2CC087300057F200 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD24EAE2CC087300057F200 /* User.swift */; };
 		BFEF58262CBE37D0008CC7BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFEF58142CBE37D0008CC7BC /* AppDelegate.swift */; };
@@ -47,6 +49,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C99B4072CC16F9600EF8DDB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		4C99B40A2CC17C0100EF8DDB /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		4CD24EAC2CC0868F0057F200 /* Follower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Follower.swift; sourceTree = "<group>"; };
 		4CD24EAE2CC087300057F200 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		BF5143552CBCD5F1008ACCBC /* GithubFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,6 +102,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C99B4062CC16F8700EF8DDB /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				4C99B4072CC16F9600EF8DDB /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		4C99B4092CC17BF300EF8DDB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4C99B40A2CC17C0100EF8DDB /* ErrorMessage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		4CD24EAB2CC086690057F200 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +150,8 @@
 		BFEF58252CBE37D0008CC7BC /* GithubFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				4C99B4092CC17BF300EF8DDB /* Utilities */,
+				4C99B4062CC16F8700EF8DDB /* Managers */,
 				BFEF581D2CBE37D0008CC7BC /* Info.plist */,
 				4CD24EAB2CC086690057F200 /* Model */,
 				BFEF58402CBE3807008CC7BC /* CustomViews */,
@@ -338,9 +360,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFEF58262CBE37D0008CC7BC /* AppDelegate.swift in Sources */,
+				4C99B40B2CC17C0B00EF8DDB /* ErrorMessage.swift in Sources */,
 				4CD24EAD2CC0868F0057F200 /* Follower.swift in Sources */,
 				BFEF58272CBE37D0008CC7BC /* FavoritesListViewController.swift in Sources */,
 				BFEF58282CBE37D0008CC7BC /* FollowersViewController.swift in Sources */,
+				4C99B4082CC16F9600EF8DDB /* NetworkManager.swift in Sources */,
 				BFEF58292CBE37D0008CC7BC /* GFAlertViewController.swift in Sources */,
 				BFEF582A2CBE37D0008CC7BC /* GFBodyLabel.swift in Sources */,
 				BFEF582B2CBE37D0008CC7BC /* GFButton.swift in Sources */,
