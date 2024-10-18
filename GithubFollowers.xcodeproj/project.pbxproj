@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C77E58C2CC318A6004B82C3 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77E58B2CC318A6004B82C3 /* UIHelper.swift */; };
 		4C99B4082CC16F9600EF8DDB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99B4072CC16F9600EF8DDB /* NetworkManager.swift */; };
 		4C99B40B2CC17C0B00EF8DDB /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99B40A2CC17C0100EF8DDB /* ErrorMessage.swift */; };
 		4C99B40D2CC184EB00EF8DDB /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99B40C2CC184EB00EF8DDB /* GFAvatarImageView.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C77E58B2CC318A6004B82C3 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		4C99B4072CC16F9600EF8DDB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4C99B40A2CC17C0100EF8DDB /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		4C99B40C2CC184EB00EF8DDB /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				4C99B40A2CC17C0100EF8DDB /* ErrorMessage.swift */,
+				4C77E58B2CC318A6004B82C3 /* UIHelper.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -370,6 +373,7 @@
 				4CD24EAD2CC0868F0057F200 /* Follower.swift in Sources */,
 				BFEF58272CBE37D0008CC7BC /* FavoritesListViewController.swift in Sources */,
 				BFEF58282CBE37D0008CC7BC /* FollowersViewController.swift in Sources */,
+				4C77E58C2CC318A6004B82C3 /* UIHelper.swift in Sources */,
 				4C99B4082CC16F9600EF8DDB /* NetworkManager.swift in Sources */,
 				BFEF58292CBE37D0008CC7BC /* GFAlertViewController.swift in Sources */,
 				BFEF582A2CBE37D0008CC7BC /* GFBodyLabel.swift in Sources */,
