@@ -25,7 +25,9 @@ class FollowersViewController: UIViewController {
         configureViewController()
         configureCollectionView()
         getFollowers(user: user, page: page)
-        configureDataSource()
+        collectionView.dataSource = self
+        collectionView.delegate = self
+        //configureDataSource()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -38,7 +40,18 @@ class FollowersViewController: UIViewController {
     }
     
     func configureCollectionView() {
-        collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: UIHelper.createThreeColumnFlowLayout(in: view))
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .vertical
+        
+        let width = view.frame.width
+        let padding: CGFloat = 12
+        let minimumItemSpacing: CGFloat = 10
+        let availableWidth = width - (padding * 2) - (minimumItemSpacing * 2)
+        let itemWidth = availableWidth / 3
+        
+        layout.itemSize = CGSize(width: itemWidth, height: itemWidth + 10)
+        
+        collectionView = UICollectionView(frame: view.frame, collectionViewLayout: layout)
         view.addSubview(collectionView)
         collectionView.delegate = self
         collectionView.backgroundColor  = .systemBackground
@@ -56,35 +69,36 @@ class FollowersViewController: UIViewController {
                 if (followers.count < 100) {self.hasMoreFollowers = false}
                 self.followers.append(contentsOf: followers)
                 if self.followers.isEmpty {
+                    // TODO: - Implements here the empty view
                     return
                 }
-                self.updateData(on: self.followers)
+                    DispatchQueue.main.async {
+                        self.collectionView.reloadData()
+                    }
+                //self.updateData(on: self.followers)
                     print(String(describing: followers))
                 case .failure(let errorMessage):
                     self.presentGFAlertOnMainThread(title: "Bad Stuff Happend", message: errorMessage.rawValue, buttonTitle: "OK")
             }
         }
     }
-    
-    func configureDataSource() {
-        dataSource = UICollectionViewDiffableDataSource<Section, Follower>(collectionView: collectionView, cellProvider: { (collectionView, indexPath, itemIdentifier) -> UICollectionViewCell? in
-            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FollowerCollectionViewCell.identifier, for: indexPath) as! FollowerCollectionViewCell
-            cell.set(follower: itemIdentifier)
-            return cell
-        })
-    }
-        
-    func updateData(on followers: [Follower]) {
-        var snapshot = NSDiffableDataSourceSnapshot<Section, Follower>()
-        snapshot.appendSections([.main])
-        snapshot.appendItems(followers)
-        DispatchQueue.main.async {
-            self.dataSource.apply(snapshot, animatingDifferences: true)
-        }
-    }
 }
 
-extension FollowersViewController: UICollectionViewDelegate {
+extension FollowersViewController: UICollectionViewDataSource, UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return self.followers.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: FollowerCollectionViewCell.identifier, for: indexPath) as! FollowerCollectionViewCell
+        let follower = self.followers[indexPath.row]
+        cell.set(follower: follower)
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        // TODO: - Implements here the navigationto the detail profile
+    }
     func scrollViewDidEndDragging(_ scrollView: UIScrollView, willDecelerate decelerate: Bool)  {
         let offset = scrollView.contentOffset.y
         let totalContentHecight = scrollView.contentSize.height

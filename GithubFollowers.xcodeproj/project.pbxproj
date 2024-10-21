@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C46D7932CC6DDC3008BCC9B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C46D7922CC6DDC3008BCC9B /* Extensions.swift */; };
 		4C77E58C2CC318A6004B82C3 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C77E58B2CC318A6004B82C3 /* UIHelper.swift */; };
 		4C99B4082CC16F9600EF8DDB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99B4072CC16F9600EF8DDB /* NetworkManager.swift */; };
 		4C99B40B2CC17C0B00EF8DDB /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C99B40A2CC17C0100EF8DDB /* ErrorMessage.swift */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C46D7922CC6DDC3008BCC9B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		4C77E58B2CC318A6004B82C3 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		4C99B4072CC16F9600EF8DDB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		4C99B40A2CC17C0100EF8DDB /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			children = (
 				BFEF58222CBE37D0008CC7BC /* String+Ext.swift */,
 				BFEF58232CBE37D0008CC7BC /* UIViewController+Ext.swift */,
+				4C46D7922CC6DDC3008BCC9B /* Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				BFEF582B2CBE37D0008CC7BC /* GFButton.swift in Sources */,
 				4C99B40F2CC1864600EF8DDB /* FollowerCollectionViewCell.swift in Sources */,
 				BFEF582C2CBE37D0008CC7BC /* GFTextField.swift in Sources */,
+				4C46D7932CC6DDC3008BCC9B /* Extensions.swift in Sources */,
 				4CD24EAF2CC087300057F200 /* User.swift in Sources */,
 				BFEF582D2CBE37D0008CC7BC /* GFTitleLabel.swift in Sources */,
 				BFEF582E2CBE37D0008CC7BC /* SceneDelegate.swift in Sources */,
